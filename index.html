@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>kasmie Tech Business</title>
+  <style>
+    body {
+      font-family: impact;
+      margin: 0;
+      background: #f4f6f8;
+    }
+    header {
+      background: #0a192f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #172a45;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>kasmie Tech Company</h1>
+  <p>Building Skills. Creating Opportunities.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#jobs">Jobs</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome</h2>
+  <p>We train students in tech and connect talents to job opportunities.</p>
+</section>
+
+<section id="jobs">
+  <h2>Job Openings</h2>
+
+  <div class="card">
+    <h3>Frontend Developer</h3>
+    <p>Experience: Beginner - Intermediate</p>
+    <button onclick="applyJob()">Apply</button>
+  </div>
+
+  <div class="card">
+    <h3>Backend Developer</h3>
+    <p>Experience: Intermediate</p>
+    <button onclick="applyJob()">Apply</button>
+  </div>
+
+</section>
+
+<section id="courses">
+  <h2>Our Courses</h2>
+
+  <div class="card">
+    <h3>Web Development</h3>
+    <p>Learn HTML, graphic design, JavaScript, cyber security</p>
+    <button onclick="payNow()">Pay ₦300,000</button>
+  </div>
+
+  <div class="card">
+    <h3>Python Programming</h3>
+    <p>Beginner to Advanced</p>
+    <button onclick="payNow()">Pay ₦450,000</button>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: kasmietech@gmail.com</p>
+</section>
+
+<script>
+  function applyJob() {
+    alert("Send your CV to: kasmietech@email.com");
+  }
+
+  function payNow() {
+    alert("Payment integration coming soon!");
+  }
+</script>
+
+</body>
+</html>
